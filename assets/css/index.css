@@ -152,7 +152,6 @@ main h1 {
     height: 100%;
     flex-direction: column;
     justify-content: start;
-    align-items: center;
     gap: 30px;
   }
   .nav-element {
@@ -178,6 +177,6 @@ main h1 {
     width: 50px;
   }
   .card {
-    width: 24%;
+    width: 23%;
   }
 }
