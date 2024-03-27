@@ -73,7 +73,7 @@ main h1 {
   align-items: center;
 }
 .card img {
-  max-width: 265px;
+  width: 100%;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
 }
