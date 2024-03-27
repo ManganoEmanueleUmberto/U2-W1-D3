@@ -141,3 +141,43 @@ main h1 {
 #news img {
   width: 100%;
 }
+
+@media screen and (min-width: 1000px) {
+  #transform {
+    display: flex;
+  }
+  .nav-bar {
+    background-color: #fef7e2;
+    width: 250px;
+    height: 100%;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 30px;
+  }
+  .nav-element {
+    border-radius: 60px;
+    background-color: #ffdf7f;
+    padding-inline: 2em;
+    padding-block: 2.5em;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+  }
+  .nav-element:nth-of-type(3) {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 1.5em;
+    border-radius: 60px;
+    padding-inline: 1.3em;
+    order: -1;
+    margin-top: 20px;
+  }
+  .nav-element img {
+    width: 50px;
+  }
+  .card {
+    width: 24%;
+  }
+}
