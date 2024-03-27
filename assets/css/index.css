@@ -86,8 +86,7 @@ main h1 {
 }
 
 .text {
-  width: 80%;
-  justify-content: space-around;
+  gap: 30px;
   align-items: center;
 }
 .text h2 {
@@ -178,5 +177,14 @@ main h1 {
   }
   .card {
     width: 23%;
+  }
+  .card button {
+    padding: 0.5em 2em;
+  }
+  .text h2 {
+    font-size: 0.8em;
+  }
+  .text h3 {
+    font-size: 0.6em;
   }
 }
